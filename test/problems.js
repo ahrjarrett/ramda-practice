@@ -87,6 +87,8 @@ describe("given list of non negative integers", function() {
 describe("all possibilities of + - or nothing between numbers 1..9", function() {
     var solutions
 
+  it('should calculate all possibilities', () => {
     solutions.length.should.eql(18);
+
   });
 });
